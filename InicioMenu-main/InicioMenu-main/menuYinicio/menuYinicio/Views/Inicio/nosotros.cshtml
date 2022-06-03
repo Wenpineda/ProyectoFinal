@@ -1,0 +1,79 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/inicio_nosotros.css" rel="stylesheet" />
+
+    <title>nosotros</title>
+</head>
+<body>
+    <div>
+
+        <marquee><h1 id="Texto">EL SORBO QUE TE DA VIDA!!</h1></marquee>
+
+    </div>
+
+    <div id="menu">
+        <ul>
+            <li></li>
+            <li>@Html.ActionLink("INICIO", "inicio", "Inicio")</li>
+            <li>@Html.ActionLink("MENU", "menu", "Inicio")</li>
+            <li>@Html.ActionLink("SOBRE NOSOTROS", "nosotros", "Inicio")</li>
+            <li>@Html.ActionLink("COMPRA", "Compra", "Inicio")</li>
+
+            <li class="der"><a href="#"><img src="~/imagenes/411-4119905_carrito-de-compra-carrito-del-super-dibujo.png" width="40" height="40" /></a></li>
+        </ul>
+
+
+    </div>
+    <div>
+        <div>
+            <img src="~/imagenes/logo.png" height="300" width="300" />
+
+            <div class="nosotros">
+                <h1>
+                    <b>
+                        La idea principal que tuvimos nosotros para crear este negocio fue para que cada joven
+                        y adulto salvadoreño que ame el café y le guste tener un lugar acogedor y relajante para
+                        pasar los días con mucho estrés.
+                        Esa fue la idea que tuvimos ser un lugar para que cada persona pueda pasarlo bien,
+                        relajarse y que disfrute de nuestros cafés y postres.
+                        Por la cual se crearon estos mockups para llamar la atención de los clientes y se les
+                        facilite la compa en nuestra cafetería.
+                    </b>
+
+
+                </h1>
+            </div>
+        </div>
+        <div>
+            <img src="~/imagenes/imagen3.png" width="400" height="400" />
+        </div>
+
+
+
+
+
+    </div>
+
+    <div id="redes">
+
+        <ul>
+
+            <li id="lista"><a id="Redes" href="#"><img src="~/imagenes/WhatsApp_Logo.svg.png" width="20" height="20" />+503 87648926</a></li>
+            <li id="lista"><a id="Redes" href="#" target="_blank"><img src="~/imagenes/facebook-logo-3-1.png" width="20" height="20" />ThecoffeeGourmet</a></li>
+            <li id="lista"><a id="Redes" href="#"><img src="~/imagenes/new-instagram-logo-png-transparent.png" width="20" height="20" />TheCGofficial</a></li>
+            <li id="lista"><a id="Redes" href="#"><img src="~/imagenes/1631443365tiktok-icon.png" width="20" height="20" />TheCoffeGourmeet</a></li>
+            <li id="lista"><a id="Redes" href="#"><img src="~/imagenes/twitter-logo-3.png" width="20" height="20" />TheCGofficial</a></li>
+
+        </ul>
+    </div>
+
+</body>
+</html>

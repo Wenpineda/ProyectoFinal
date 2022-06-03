@@ -1,0 +1,83 @@
+﻿
+@{
+    ViewBag.Title = "Compra";
+}
+
+<link href="~/Content/factura.css" rel="stylesheet" />
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Credit Card</title>
+
+    <!-- Styles -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+    <meta name="robots" content="noindex,follow" />
+</head>
+
+<body>
+    <form class="credit-card">
+        <div class="form-header">
+            <h4><center class="title">CREDIT CARD</center></h4>
+
+        </div>
+
+        <div class="form-body">
+            <!-- Card Number -->
+            <input type="text" class="card-number" placeholder="Numero de Tarjeta">
+
+            <!-- Date Field -->
+            <div class="date-field">
+                <div class="month">
+                    <select name="Month">
+                        <option value="enero">Enero</option>
+                        <option value="febrero">Febrero</option>
+                        <option value="marzo">Marzo</option>
+                        <option value="abril">Abril</option>
+                        <option value="mayo">Mayo</option>
+                        <option value="junio">Junio</option>
+                        <option value="julio">Julio</option>
+                        <option value="agosto">Agosto</option>
+                        <option value="septiembre">Septiembre</option>
+                        <option value="octubre">Octubre</option>
+                        <option value="noviembre">Noviembre</option>
+                        <option value="deciembre">Deciembre</option>
+                    </select>
+                </div>
+                <div class="year">
+                    <select name="Year">
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Card Verification Field -->
+            <div class="card-verification">
+                <div class="cvv-input">
+                    <input type="text" placeholder="CVV">
+                </div>
+                <div class="cvv-details">
+                    <p>Generalmente <br> se encuentran 3 o 4 dígitos <br> en la tira de la firma</p>
+                </div>
+            </div>
+
+            <!-- Buttons -->
+            <button type="submit" class="proceed-btn"><a href="#">Enviar</a></button>
+            <button type="submit" class="paypal-btn"><a href="#">Pagar con</a></button>
+        </div>
+    </form>
+</body>
+
+</html>
+
+
